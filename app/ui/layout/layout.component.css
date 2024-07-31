@@ -1,0 +1,11 @@
+.layout {
+  margin: 0 auto;
+  max-width: 500px;
+  border-radius: 2.5rem; /* 8px */
+  background-color: rgb(241, 241, 241);
+  margin-top: 1rem; /* Equivalent to my-4 */
+  margin-bottom: 1rem; /* Equivalent to my-4 */
+}
+* {
+  box-sizing: border-box;
+}

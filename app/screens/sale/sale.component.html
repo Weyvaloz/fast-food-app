@@ -1,0 +1,20 @@
+<!-- sale.component.html -->
+<main>
+  <h1>Летняя распродажа</h1>
+  <p>Насладитесь летними скидками на самые вкусные блюда!</p>
+  <div class="catalog">
+    <a
+      [routerLink]="'/food/' + food.id"
+      class="item"
+      *ngFor="let food of saleItems"
+    >
+      <div class="banner">Скидка!</div>
+      <img [src]="food.image" [alt]="food.title" />
+      <span class="heading">{{ food.title }}</span>
+      <div class="price">
+        <span class="original-price">{{ food.originalPrice }} RUB</span>
+        <span class="sale-price">{{ food.price }} RUB</span>
+      </div>
+    </a>
+  </div>
+</main>

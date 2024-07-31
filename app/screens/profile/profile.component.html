@@ -1,0 +1,55 @@
+<main class="profile-container">
+  <h1>Профиль пользователя</h1>
+  <div class="user-info">
+    <img
+      src="https://via.placeholder.com/150"
+      alt="User Avatar"
+      class="user-avatar"
+    />
+    <div class="user-details">
+      <h2>{{ userName }}</h2>
+      <p>Email: {{ userEmail }}</p>
+    </div>
+  </div>
+
+  <section class="profile-content">
+    <h2>Ваши заказы</h2>
+    <ul>
+      <li *ngFor="let order of orders">
+        <div class="order-info">
+          <p><strong>Заказ №:</strong> {{ order.id }}</p>
+          <p><strong>Дата:</strong> {{ order.date }}</p>
+          <p><strong>Сумма:</strong> {{ order.total }} RUB</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="addresses-section">
+      <h2>Адреса доставки</h2>
+      <ul>
+        <li *ngFor="let address of addresses">
+          <div class="address-info">
+            <p><strong>Улица:</strong> {{ address.street }}</p>
+            <p><strong>Город:</strong> {{ address.city }}</p>
+            <p><strong>Индекс:</strong> {{ address.zip }}</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="payment-methods-section">
+      <h2>Платежные методы</h2>
+      <ul>
+        <li *ngFor="let method of paymentMethods">
+          <div class="payment-method-info">
+            <p><strong>Тип карты:</strong> {{ method.type }}</p>
+            <p>
+              <strong>Номер карты:</strong> **** **** **** {{ method.last4 }}
+            </p>
+            <p><strong>Срок действия:</strong> {{ method.expiry }}</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,23 @@
+a {
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+a:hover {
+  color: orange;
+}
+.active-link {
+  color: orange;
+}
+nav {
+  padding: 1px;
+}
+ul {
+  padding-inline-start: 0;
+  max-width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

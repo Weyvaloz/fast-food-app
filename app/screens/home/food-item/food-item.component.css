@@ -1,0 +1,39 @@
+img {
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2.25rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.heading {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  display: block;
+}
+.price {
+  display: block;
+  color: #ed8936;
+  font-weight: 600;
+}
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

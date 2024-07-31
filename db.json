@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Beef Burger",
+      "price": 220,
+      "type": "burger",
+      "image": "https://www.pngall.com/wp-content/uploads/5/Barbecue-Hamburger-PNG-Picture.png"
+    },
+    {
+      "id": 2,
+      "title": "Spicy Chicken Sandwich",
+      "price": 180,
+      "type": "chicken",
+      "image": "https://cdn.culvers.com/menu/images/item/chicken-sandwiches/chicken/spicy-crispy-chicken-sandwich.png"
+    },
+    {
+      "id": 4,
+      "title": "Cold Brew Coffee",
+      "price": 120,
+      "type": "drink",
+      "image": "https://png.pngtree.com/png-vector/20230930/ourmid/pngtree-cold-brewed-iced-latte-coffee-on-plastic-cup-side-view-generative-png-image_10154255.png"
+    },
+    {
+      "id": 5,
+      "title": "Veggie Burger",
+      "price": 200,
+      "type": "burger",
+      "image": "https://pngfile.net/public/uploads/preview/veg-burger-png-image-11703408255gkuhjrek36.png"
+    },
+    {
+      "id": 6,
+      "title": "Grilled Chicken Salad",
+      "price": 250,
+      "type": "chicken",
+      "image": "https://png.pngtree.com/png-vector/20240129/ourmid/pngtree-grilled-chicken-salad-png-generative-ai-png-image_11560082.png"
+    },
+    {
+      "id": 8,
+      "title": "Iced Tea",
+      "price": 100,
+      "type": "drink",
+      "image": "https://www.pngall.com/wp-content/uploads/13/Iced-Tea-PNG-Photo.png"
+    },
+    {
+      "id": 9,
+      "title": "Fish Burger",
+      "price": 230,
+      "type": "burger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_BJwyjsUiqs8yXWtgL-eSWzNZ--CdEXbXA&s"
+    },
+    {
+      "id": 10,
+      "title": "Chicken Nuggets",
+      "price": 160,
+      "type": "chicken",
+      "image": "https://wallpapers.com/images/featured/chicken-nugget-png-wt8ui3djzufsd6af.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Chicken Burger",
+      "price": 200,
+      "type": "burger",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/034/763/836/small_2x/ai-generated-fried-chicken-burger-free-png.png"
+    },
+    {
+      "id": 13,
+      "title": "Cheese Burger",
+      "price": 190,
+      "type": "burger",
+      "image": "https://freepngimg.com/download/burger/158964-burger-cheese-classic-png-file-hd.png"
+    },
+    {
+      "id": 14,
+      "title": "Taco",
+      "price": 140,
+      "type": "taco",
+      "image": "https://www.pngall.com/wp-content/uploads/4/Taco-PNG-Picture.png"
+    },
+    {
+      "id": 15,
+      "title": "Chicken Wrap",
+      "price": 100,
+      "type": "chicken",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/032/325/277/small_2x/taco-mexican-tortilla-wrap-with-chicken-isolated-on-transparent-background-file-cut-out-ai-generated-png.png"
+    },
+    {
+      "id": 16,
+      "title": "Coca Cola",
+      "price": 40,
+      "type": "drink",
+      "image": "https://www.pngkey.com/png/full/76-766443_coca-cola-bottle-png-fizzy-drink-coca-cola.png"
+    },
+    {
+      "id": 17,
+      "title": "Big Mac",
+      "price": 250,
+      "type": "burger",
+      "image": "https://wallpapers.com/images/hd/big-mac-close-up-5rkpe1pbc6gkrlh7-5rkpe1pbc6gkrlh7.png"
+    },
+    {
+      "id": 18,
+      "title": "Fanta",
+      "price": 40,
+      "type": "drink",
+      "image": "https://e7.pngegg.com/pngimages/746/579/png-clipart-clear-drinking-glass-fanta-cup-with-orange-liquid-fanta-orange-in-a-glass-food-fanta-thumbnail.png"
+    },
+    {
+      "id": 19,
+      "title": "Vegetarian Taco",
+      "price": 130,
+      "type": "taco",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdaj5mv6Bevn4X-aSsaEEhsFLtzSDu9khTow&s"
+    },
+    {
+      "id": 20,
+      "title": "Fish Taco",
+      "price": 160,
+      "type": "taco",
+      "image": "https://d2bzx2vuetkzse.cloudfront.net/fit-in/0x450/unshoppable_producs/7c8ab5a6-e2ff-4410-b53a-47db56f0aea5.png"
+    }
+  ]
+}

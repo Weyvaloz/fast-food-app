@@ -1,0 +1,7 @@
+<div class="product_container" *ngIf="food">
+  <img class="product_img" [src]="food.image" [alt]="food.title" />
+  <h1>{{ food.title }}</h1>
+  <span class="price">{{ food.price }}RUB</span>
+  <button>Buy it now</button>
+  <button (click)="addToFavorites()">❤️ Добавить в избранное</button>
+</div>
